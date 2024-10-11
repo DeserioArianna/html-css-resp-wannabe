@@ -137,10 +137,6 @@ img {
 
  @media screen and (max-width: 480px) {
     .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         width: auto;
     }
 
@@ -149,8 +145,12 @@ img {
         width: 100%;
     }
 
-    .col, .col-left, .col-right {
-        display: flex;
-        flex-wrap: wrap;
+    .lessons .col {
+        display: block;
+        width: 100%;
+    }
+
+    .steps .col {
+
     }
 }
